@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>KvM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="graphic.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+	<link rel="icon" href="/images/logo.ico" type="image/x-icon">
+	<script src="main.js" defer></script>
+</head>
+
+<body>
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+	<header>
+		<a href="#">
+			<img src="images/logo.png">
+		</a>
+		<div class="nav">
+			<ul>
+				<li><a href="#">Головна</a></li>
+				<li><a href="#coursess">Курси</a></li>
+				<li><a href="#about-as">Про нас</a></li>
+				<li><a href="#Call">Покупка/Питання/Жалоби</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<section class="banner">
+			<h2>Вивчайте мистецтво монтажу відео</h2>
+			<p>Приєднуйтесь до наших онлайн-курсів та станьте професіоналом</p>
+			<button onclick="location.href='#about-as'">Про нас</button>
+		</section>
+		<section class="courses" id="courses">
+			<h1>Введення про курси</h1>
+			<ul>
+				<li>
+					<div class="image-row">
+						<img src="images/Start.jpg" width="450px" height="300px" alt="Курс 1">
+						<h4>Введення в редагування відео</h4>
+						<p>Посібник відеомонтажу відео з Adobe Premiere Pro</p>
+					</div>
+				</li>
+				<li>
+					<div class="image-row">
+						<img src="images/Course2.jpg" width="400px" height="300px" alt="Course 2">
+						<h3>Передові методи редагування відео</h3>
+						<p>Вивчіть передові методи редагування відео</p>
+					</div>
+				</li>
+				<li>
+					<div class="image-row">
+						<img src="images/cOORSE 3.jpg" width="350px" height="300px" alt="Course 3">
+						<h3>Колірна градація та корекція</h3>
+						<p>Опануйте мистецтво градації та корекції кольорів</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<br></br>
+	<button class="btn1" onclick="location.href='#coursess'">Переглянути матеріал</button>
+	<section class="about-as" id="about-as">
+		<div class="image-row">
+			<div class="container-1">
+				<h2>Про нас</h2>
+				<br></br>
+				<br></br>
+				<div class="row justify-content-center">
+					<div class="about-lessons-bottom-col-img-container" style="display: flex;">
+						<div>
+							<img src="https://mobios.school/img/about-lessons-icon-giant-5.png" width="100px"
+								class="about-lessons-bottom-col-img" alt="Відео - уроки">
+							<div class="about-lessons-bottom-col-img-container">
+								<h4 class="about-lessons-bottom-col-title">ВІДЕО - УРОКИ</h4>
+								<p1>Ми - команда професіоналів, яка проводить курси з улюбленого всіма відеомонтажу.Наші
+									курси на людей різного рівня підготовки - від початківців до досвідчених
+									користувачів.</p1>
+							</div>
+						</div>
+						<div>
+							<img src="https://mobios.school/img/about-lessons-icon-giant-2.png" width="250px"
+								class="about-lessons-bottom-col-img" alt="Відео - уроки">
+							<div class="about-lessons-bottom-col-img-container">
+								<h4 class="about-lessons-bottom-col-title">Практичні завдання</h4>
+								<p1>Наша мета - допомогти людям розвинути свої навички у галузі відеомонтажу та розкрити
+									їхній творчий потенціал.Ми використовуємо сучасні програми та технології для
+									навчання наших студентів.</p1>
+							</div>
+						</div>
+						<div>
+							<img src="https://mobios.school/img/about-lessons-icon-giant-3.png" width="75px"
+								class="about-lessons-bottom-col-img" alt="Відео - уроки">
+							<div class="about-lessons-bottom-col-img-container">
+								<h4 class="about-lessons-bottom-col-title">Дипломні роботи</h4>
+								<p2>Ми прагнемо створювати цікавий та зрозумілий контент для наших студентів. Наші
+									викладачі-досвідчені фахівці з багаторічним досвідом роботи у відеомонтажу. Ми
+									завжди готові допомогти нашим студентам для їхніх досягнень.</p2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br></br>
+	<section class="coursess" id="coursess">
+		<h3>Наші курси</h3>
+		<ul>
+			<li>
+				<div class=" image-row">
+					<img src="images/course1.gif" width="400px" height="300px" alt="Курс 1">
+					<h3>Вступ до монтажу відео</h3>
+					<p>Початковий курс монтажу відео з Adobe Premiere Pro</p>
+					<p><strong>Тривалість:</strong> 10 годин</p>
+					<p><strong>Ціна:</strong> $5</p>
+					<button onclick="showPrompt('12abcd112315a', 'images/Basic.docx');">Завантажити курс</button>
+			</li>
+			<li>
+				<img src="images/course2.gif" width="400px" height="300px" alt="Курс 2">
+				<h3>Високопродуктивні техніки монтажу відео</h3>
+				<p>Навчіться високопродуктивним технікам монтажу відео</p>
+				<p><strong>Тривалість:</strong> 15 годин</p>
+				<p><strong>Ціна:</strong> $10</p>
+				<button onclick="showPrompt('12abcd112315b', 'images/Normal.docx');">Завантажити курс</button>
+			</li>
+			<li>
+				<img src="images/course3.gif" width="400px" height="300px" alt="Курс 3">
+				<h3>Кольорокорекція та колорградінг</h3>
+				<p>Оволодійте мистецтвом колорокорекції,колорградінгу</p>
+				<p><strong>Тривалість:</strong> 20 годин</p>
+				<p><strong>Ціна:</strong> $25</p>
+				<button onclick="showPrompt('12abcd112315c', 'images/Ultra.docx');">Завантажити курс</button>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<script>
+		function showPrompt(code, downloadLink) {
+			const input = prompt("Надрукуйте код виданий Адміністратором:");
+			if (input === code) {
+				window.open(downloadLink, "_blank");
+			} else {
+				alert("Код був невірно набран, повторіть ще раз");
+			}
+		}
+		function closeWindow() {
+			if (openedWindow) {
+				openedWindow.close();
+			}
+		}
+	</script>
+	<br></br>
+	<div id="comment-container">
+
+		<h3>Коментарі наших випускників</h3>
+		<br></br>
+		<ul id="comment-list">
+
+			<li>
+
+				<div class="commenter-info">
+
+					<span class="commenter-name">Діма Гомань</span>
+
+					<span class="commenter-rating">★★★★☆</span>
+				</div>
+
+				<p class="comment-message">Мені дуже сподобався цей курс. Це було легко та дуже інформативно. Я дізнався
+					багато нового та покращив свої навички.</p>
+			</li>
+			<li>
+
+				<div class="commenter-info">
+
+					<span class="commenter-name">Віталій Стрижуцький</span>
+
+					<span class="commenter-rating">★★★☆☆</span>
+				</div>
+
+				<p class="comment-message">Цей курс був добрим, але є над чим працювати. Це було надто інформативно.Я
+					навчився багато чого нового
+					але є матеріал який мені був не потрібен.</p>
+			</li>
+			<li>
+
+				<div class="commenter-info">
+
+					<span class="commenter-name">Аліна Мрія</span>
+
+					<span class="commenter-rating">★★★★☆</span>
+				</div>
+
+				<p class="comment-message">Було дуже цікаво зрозуміти що в житті треба завжди вчитись,курс гарний</p>
+				<section class="Call" id="Call"></section>
+			</li>
+		</ul>
+	</div>
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<p>Якщо ви маєте бажання купити курс,вам треба надіслати свої контактні данні для зв'язку з вами та тема
+				вашого запросу</p>
+		</div>
+	</div>
+	<br></br>
+	<H3>Обратний зв'язок</H3>
+	<br></br>
+	<form action="https://formspree.io/f/xlekpbgv" method="POST">
+		<label for="name">І'мя:</label>
+		<input type="text" id="name" name="name">
+		<label for="email">Пошта:</label>
+		<input type="email" id="email" name="_replyto">
+		<label for="message">Коментарій:</label>
+		<textarea id="message" name="message"></textarea>
+		<input type="submit" value="Надіслати">
+	</form>
+	<div class="footer">
+		<div class="col-1">
+			<h3>КОРИСНІ ПОСИЛАННЯ</h3>
+			<a href="#">ГОЛОВНА</a>
+			<a href="#coursess">КУРСИ</a>
+			<a href="#about-as">ПРО НАС</a>
+			<a href="#Call">КОНТАКТИ</a>
+		</div>
+		<div class="col-2">
+			<h3>ПІДПИСАТИСЯ</h3>
+			<div id="subscribe-form">
+				<form onsubmit="showSuccessMessage(event)">
+					<input type="text" id="email-input" placeholder="Ваша електронна пошта">
+					<button type="submit">ПІДПИСАТИСЯ ЗАРАЗ</button>
+				</form>
+				<div id="success-message" class="hidden">
+					&#10004; Ви підписані!
+				</div>
+				<div id="error-message" class="hidden">
+					&#10006; Введіть електронну пошту!
+				</div>
+			</div>
+
+			<hr>
+			<p>@ 2023 KvM | Всі права захищені.</p>
+		</div>
+		<div class="col-3">
+			<h3>КОНТАКТИ</h3>
+			<p>73009, Україна, Місто Херсон<br>Завжди перші!</p>
+			<div class="social-icons">
+				<a href="https://t.me/yadoool"><i class="fa-brands fa-telegram"></i></a>
+				<a href="https://www.youtube.com/channel/UC7FdaSn_vLKBBYF5DrB5JmA"><i class="fa-brands fa-youtube"></i></a>
+				<a href="https://www.instagram.com/yadool23/"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+			<script>
+				function showSuccessMessage(event) {
+					event.preventDefault();
+
+					let emailInput = document.getElementById("email-input");
+					let successMessage = document.getElementById("success-message");
+					let errorMessage = document.getElementById("error-message");
+
+					let emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+					if (emailInput.value === "" || !emailRegex.test(emailInput.value)) {
+						successMessage.classList.remove("visible");
+						successMessage.classList.add("hidden");
+
+						errorMessage.classList.remove("hidden");
+						errorMessage.classList.add("visible");
+
+						emailInput.classList.remove("normal");
+						emailInput.classList.add("error");
+
+					} else {
+						successMessage.classList.remove("hidden");
+						successMessage.classList.add("visible");
+
+						errorMessage.classList.remove("visible");
+						errorMessage.classList.add("hidden");
+
+						emailInput.classList.remove("error");
+						emailInput.classList.add("normal");
+
+					}
+				}
+			</script>
